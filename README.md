@@ -129,6 +129,16 @@ The Cross-Cloud Trust Fabric provides a cross-provider **trust fabric** that:
 | **Phase 4 – Early Collaboration** | Reviews + pilot tests | Weeks 17 – 20 |
 | **Phase 5 – Cross-Cloud Council** | Establish working group | Post-Prototype |
 | **Phase 6 – Commercialization** | Licensing + sustainability | Ongoing |
+---
+## 📚 Documentation
+| File | Description |
+|------|--------------|
+| [docs/whitepaper-outline.md](docs/whitepaper-outline.md) | Draft whitepaper |
+| [docs/architecture.md](docs/architecture.md) | Architecture overview |
+| [docs/glossary.md](docs/glossary.md) | Definitions of core terms |
+| [docs/roadmap.md](docs/roadmap.md) | Phased plan & timelines |
+| [docs/references.md](docs/references.md) | Standards & citations |
+
 
 ---
 
