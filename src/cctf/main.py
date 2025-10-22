@@ -17,6 +17,7 @@ class VoteOut(BaseModel):
     dnssec_valid: Optional[bool] = None
     error: Optional[str] = None
 
+
 class QuorumOut(BaseModel):
     hostname: str
     votes: List[VoteOut]
@@ -24,10 +25,12 @@ class QuorumOut(BaseModel):
     majority_answers: List[str]
     confidence: float
 
+
 class IdentityOut(BaseModel):
     spiffe_ok: Optional[bool]
     oidc_ok: Optional[bool]
     details: dict
+
 
 class DecisionOut(BaseModel):
     hostname: str
@@ -37,9 +40,11 @@ class DecisionOut(BaseModel):
     quorum: QuorumOut
     identity: IdentityOut
 
+
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "cctf-trust-negotiator", "version": "0.1.0"}
+
 
 @app.get("/trust/resolve", response_model=DecisionOut)
 def resolve(host: str = Query(..., description="Hostname to validate (A record)")):
