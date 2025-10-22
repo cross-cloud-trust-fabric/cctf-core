@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+boto3
+google-cloud-dns
+azure-identity
+oci
+opentelemetry-api
+opentelemetry-sdk
+openquantumsafe
