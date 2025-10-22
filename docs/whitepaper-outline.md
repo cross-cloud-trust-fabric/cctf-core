@@ -45,6 +45,13 @@ Brief overview of why CCTF exists:
 - Integration with Cloud Native Computing Foundation (CNCF) landscape.
 
 ---
+## Visual Architecture
+- [🧭 Architecture Overview](architecture-diagrams/cctf_architecture_overview.md)
+- [⚙️ Resolver Quorum Flow](architecture-diagrams/resolver_quorum_flow.md)
+- [🧠 Trust Negotiator Sequence](architecture-diagrams/trust_negotiator_sequence.md)
+
+
+---
 
 **Author:** Braden Hamm  
 **Status:** Draft v0.1  
